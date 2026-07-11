@@ -75,3 +75,135 @@ nav{
 .hero div p{
     color: #a39c9c;
 }
+.speakers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+
+}
+.speaker-s h1{
+ font-size: 40px;
+}
+.speaker-card{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.s-card{
+    border: 0.01px solid #a39c9c;
+    border-radius: 10px;
+}
+.s-card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+.s-card p,.s-card h4{
+    margin: 10px;
+}
+.s-card p{
+    font-size: 12px;
+}
+.card-p{
+    color: #1D4ED8;
+    font-size: 12px;
+}
+.card{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-h{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.all-card{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+}
+.common-card{
+    border: 0.01px solid #a39c9c;
+    padding: 40px;
+    border-radius: 10px;
+}
+.common-card p,.common-card ul li{
+    color: #575757;
+    margin: 8px;
+}
+.common-card h3{
+    font-size: 20px;
+    margin-left: 10px;
+ }
+ .card-btn{
+    width: 100%;
+    margin-top: 10px;
+ }
+ .card2{
+    background-color: #0D1B2A;
+ }
+ .card2 h3{
+    color: #FFFFFF;
+ }
+
+ .card2 ul li{
+    color:#a39c9c;
+}
+.card2 .pp{
+    color: #93C5FD;
+}
+
+.card1 button{
+    background-color: #FFFFFF;
+    border: 1px solid #1D4ED8;
+    color: #2563EB;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+footer{
+    padding: 10px;
+    background-color: #0D1B2A;
+}
+footer hr{
+    color: #a39c9c;
+    margin: 10px;
+}
+.footer-under{
+    display: flex;
+    justify-content: space-around;
+    color:#a39c9c;
+    align-items: center;
+}
+
+.footer-pr-te{
+    display: flex;
+justify-content: space-between;
+}
+
+
+.footer-pr-te p{
+    margin: 20px;
+
+}
